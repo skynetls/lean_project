@@ -8,12 +8,12 @@ public class AlternativeCalcOrArray {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Выберите 1 или 2: 1 - Калькулятор, 2 - Массив");
         int i = scanner.nextInt();
-        if(i<2){
-            System.out.println("Введите первое значение: ");
+        if(i<2 && i>0){
+            System.out.print("Введите первое значение: ");
             double y1 = scanner.nextDouble();
-            System.out.println("Введите второе значение: ");
+            System.out.print("Введите второе значение: ");
             double y2 = scanner.nextDouble();
-            System.out.println("Введите +, -, / или *: ");
+            System.out.print("Введите + , - , / или * : ");
             String n = scanner.next();
             switch (n) {
                 case "+": System.out.printf("Равно: " + (y1 + y2));
@@ -27,7 +27,9 @@ public class AlternativeCalcOrArray {
                 default: System.out.printf("Вы ввели неверный знак!");
             }
         }
-        else if(i<3 & i>1) {
+        else if(i<3 && i>1) {
+            String[] name = new String[4];
+
             System.out.println("Массив");
         }
         else {
