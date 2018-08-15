@@ -37,18 +37,17 @@ public class AlternativeCalcOrArray {
              name[x]=scanner.next();
             }
 
-            int max=name[0].length();
+            int max=0;
             for(int m=0;m<name.length;m++){
                 if (name[m].length() > max){
                     max = name[m].length();
-                    System.out.println("Значение: " + name[m] + ", количество символов: " + max);
                 }
             }
-           /* for(int m=0;m<name[m].length();m++) {
+            for(int m=0;m<name.length;m++) {
                 if (name[m].length() == max) {
                     System.out.println("Значение: " + name[m] + ", количество символов: " + max);
                 }
-                }*/
+            }
         }
         else {
             System.out.println("Вы неверно ввели значение");
