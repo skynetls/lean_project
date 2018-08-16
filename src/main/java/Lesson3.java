@@ -4,7 +4,7 @@ import java.util.Scanner;
  * @author LSyzranova
  * @see #main(String[])
  */
-public class AlternativeCalcOrArray {
+public class Lesson3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Выберите 1 или 2: 1 - Калькулятор, 2 - Массив");

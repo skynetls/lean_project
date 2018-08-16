@@ -4,7 +4,7 @@ import java.util.Scanner;
  * @see #main(String[])
  */
 
-public class Calc {
+public class Lesson2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

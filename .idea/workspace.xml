@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b150fecd-7929-435d-84c5-8c458a9bb002" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/AlternativeCalcOrArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlternativeCalcOrArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlternativeCalcOrArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Calc.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,13 +41,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1514" />
+          <entry key="java" value="1545" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1514" />
+          <entry key="JAVA" value="1545" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -65,19 +68,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="54" />
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AlternativeCalcOrArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lesson3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+            <state relative-caret-position="136">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -99,6 +102,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Calc.java" />
         <option value="$PROJECT_DIR$/src/main/java/AlternativeCalcOrArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lesson3.java" />
       </list>
     </option>
   </component>
@@ -183,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534370368410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534402891081" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../working_project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -202,16 +206,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlternativeCalcOrArray">
-    <configuration name="AlternativeCalcOrArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlternativeCalcOrArray" />
+  <component name="RunManager" selected="Application.Lesson3">
+    <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calc" />
       <module name="learn_project" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calc" />
+    <configuration name="Lesson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2" />
+      <module name="learn_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson3" />
       <module name="learn_project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -266,11 +277,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.Calc" />
-      <item itemvalue="Application.AlternativeCalcOrArray" />
+      <item itemvalue="Application.Lesson3" />
+      <item itemvalue="Application.Lesson2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AlternativeCalcOrArray" />
+        <item itemvalue="Application.Lesson3" />
+        <item itemvalue="Application.Lesson2" />
         <item itemvalue="Application.Calc" />
       </list>
     </recent_temporary>
@@ -299,7 +312,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -376,17 +388,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AlternativeCalcOrArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
